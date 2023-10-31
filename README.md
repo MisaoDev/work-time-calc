@@ -11,7 +11,7 @@ I wasn't happy with the existing tools for their performance, while others only 
 
 ## Install
 ```
-pip install work-time-calc
+pip install worktimecalc
 ```
 
 ## Quick example

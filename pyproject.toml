@@ -10,8 +10,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "work-time-calc"
-version = "0.1.1"
-description = "Calculates the business time between two dates."
+version = "0.1.2"
+description = "Calculates the business time between two datetimes."
 readme = "README.md"
 authors = [{ name = "Misao" }]
 license = { file = "LICENSE" }

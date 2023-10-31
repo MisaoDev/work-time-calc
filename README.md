@@ -1,10 +1,13 @@
 # Work Time Calculator
 Small tool to calculate the exact business time between two dates.
 
+I wasn't happy with the existing tools for their performance, while others only counted the business days. This was built with the goal of being as efficient as possible, easy to use and flexible.
+
 ## Features
-- Aims for performance
+- Fast! Calculations done in constant time
 - Multiple ways to define working hours
-- Considers holidays from a list
+- Specific schedule for each day of the week
+- Can consider holidays
 
 ## Install
 ```pip install work-time-calc```
@@ -36,4 +39,4 @@ calc = WorkTimeCalculator(detail=[(8, "16:30"), ("17:15", 20), None, None, None,
 
 ## To do
 - Overnight shifts (spanning two days)
-- Small performance improvements
+- Small performance improvements (minmaxing)

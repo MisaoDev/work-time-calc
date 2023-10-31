@@ -11,7 +11,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "work-time-calc"
 version = "0.1.0"
-description = "Efficient work time calculator"
+description = "Calculates the business time between two dates."
 readme = "README.md"
 authors = [{ name = "Misao" }]
 license = { file = "LICENSE" }
@@ -25,3 +25,6 @@ dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest"]
+
+[project.urls]
+Home = "https://github.com/MisaoDev/work-time-calc"

@@ -1,8 +1,8 @@
 import datetime
 from typing import Any
 
-from work_time_calc import error_messages
-from work_time_calc.delta import WorkTimeDelta
+from worktimecalc import error_messages
+from worktimecalc.delta import WorkTimeDelta
 
 
 WEEKDAY_NAMES = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']

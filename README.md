@@ -10,12 +10,14 @@ I wasn't happy with the existing tools for their performance, while others only 
 - Can consider holidays
 
 ## Install
-```pip install work-time-calc```
+```
+pip install work-time-calc
+```
 
 ## Quick example
 Just create a calculator and call it to get the difference:
 ```python
-from work_time_calc.calc import WorkTimeCalculator
+from worktimecalc.calc import WorkTimeCalculator
 
 calc = WorkTimeCalculator(9, 18, 'mon tue thu fri sat')
 delta = calc("2050-02-10T10:30:00", "2050-03-10T18:15:00")

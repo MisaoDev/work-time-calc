@@ -73,7 +73,7 @@ def format_result(result):
 )
 # fmt: on
 def test_constructor(start, end, week, holidays, detail, expected):
-    from work_time_calc.calc import WorkTimeCalculator
+    from worktimecalc.calc import WorkTimeCalculator
 
     expected = format_result(expected)
     kwargs = dict(start=start, end=end, week=week, holidays=holidays, detail=detail)
@@ -89,7 +89,7 @@ def test_constructor(start, end, week, holidays, detail, expected):
     ],
 )
 def test_calc(date1, date2, expected_hours):
-    from work_time_calc.calc import WorkTimeCalculator
+    from worktimecalc.calc import WorkTimeCalculator
 
     date1 = datetime.datetime(*date1)
     date2 = datetime.datetime(*date2)
@@ -106,7 +106,7 @@ def test_calc(date1, date2, expected_hours):
     ],
 )
 def test_calc_with_holidays(date1, date2, expected_hours):
-    from work_time_calc.calc import WorkTimeCalculator
+    from worktimecalc.calc import WorkTimeCalculator
 
     date1 = datetime.datetime(*date1)
     date2 = datetime.datetime(*date2)

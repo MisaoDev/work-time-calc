@@ -4,7 +4,7 @@ sys.path.append('src')
 
 import datetime
 from random import randint
-from work_time_calc.calc import WorkTimeCalculator
+from worktimecalc.calc import WorkTimeCalculator
 
 
 CHILE_HOLIDAYS = [

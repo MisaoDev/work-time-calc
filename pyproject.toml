@@ -13,6 +13,7 @@ name = "work-time-calc"
 version = "0.1.0"
 description = "Efficient work time calculator"
 readme = "README.md"
+authors = [{ name = "Misao" }]
 license = { file = "LICENSE" }
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -21,7 +22,6 @@ classifiers = [
 ]
 keywords = ["time", "calculator", "tools", "business time", "business hours", "work hours", "work time"]
 dependencies = []
-requires-python = ">=3.11"
 
 [project.optional-dependencies]
 dev = ["pytest"]
